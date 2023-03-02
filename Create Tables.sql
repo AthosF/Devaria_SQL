@@ -114,6 +114,9 @@ CREATE TABLE Pedido_Compra
 	CONSTRAINT FK_CodigoDistribuidor FOREIGN KEY (Codigo_Distribuidor) REFERENCES Distribuidor(Codigo)
 )
 
+/*
+Criação da tabela Item pedido de compra
+*/
 CREATE TABLE Item_Pedido_Compra
 (
 	Codigo INT IDENTITY(1,1) NOT NULL,
